@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OdeToFood", "OdeToFood\OdeToFood.csproj", "{ACAB1CA3-632A-4C12-BE32-6B7D8FC5EC22}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OdeToFood.Core", "OdeToFood.Core\OdeToFood.Core.csproj", "{1E4C82FF-8694-4943-83E5-284AB0E7FE0F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OdeToFood.Data", "OdeToFood.Data\OdeToFood.Data.csproj", "{783EEFFC-2A2C-44C4-A2BE-A6873F79BE57}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACAB1CA3-632A-4C12-BE32-6B7D8FC5EC22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACAB1CA3-632A-4C12-BE32-6B7D8FC5EC22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACAB1CA3-632A-4C12-BE32-6B7D8FC5EC22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACAB1CA3-632A-4C12-BE32-6B7D8FC5EC22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E4C82FF-8694-4943-83E5-284AB0E7FE0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E4C82FF-8694-4943-83E5-284AB0E7FE0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E4C82FF-8694-4943-83E5-284AB0E7FE0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E4C82FF-8694-4943-83E5-284AB0E7FE0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{783EEFFC-2A2C-44C4-A2BE-A6873F79BE57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{783EEFFC-2A2C-44C4-A2BE-A6873F79BE57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{783EEFFC-2A2C-44C4-A2BE-A6873F79BE57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{783EEFFC-2A2C-44C4-A2BE-A6873F79BE57}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {15DD53FF-6F74-42ED-80B4-2F30AC2B9595}
+	EndGlobalSection
+EndGlobal
