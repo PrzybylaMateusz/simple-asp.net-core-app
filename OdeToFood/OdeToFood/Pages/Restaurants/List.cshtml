@@ -20,22 +20,28 @@
 </form>
 
 <table class="table">
-    @foreach(var restaurant in Model.Restaurants)
+    @foreach (var restaurant in Model.Restaurants)
     {
-    <tr>
-        <td>@restaurant.Name</td>
-        <td>@restaurant.Location</td>
-        <td>@restaurant.Cusine</td>
-        <td>
-            <a class="btn btn-lg"
-               asp-page="./Detail" 
-               asp-route-restaurantId="@restaurant.Id"
-               >
-                <i class="glyphicon glyphicon-zoom-in"></i>
-            </a>
-        </td>
-    </tr>
+        <tr>
+            <td>@restaurant.Name</td>
+            <td>@restaurant.Location</td>
+            <td>@restaurant.Cusine</td>
+            <td>
+                <a class="btn btn-lg"
+                   asp-page="./Detail"
+                   asp-route-restaurantId="@restaurant.Id">
+                    <i class="fas fa-search-plus"></i>
+                </a>
+                <a class="btn btn-lg"
+                   asp-page="./Edit"
+                   asp-route-restaurantId="@restaurant.Id">
+                    <i class="fas fa-edit"></i>
+                </a>
+            </td>
+        </tr>
     }
 </table>
+
+<a asp-page="./Edit" class="btn btn-outline-primary">Add New</a>
 
 <div>@Model.Message</div>
